@@ -47,6 +47,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     .
     ├── node_modules
     ├── src
+    |  ├──components
+    |  └── pages
     ├── .gitignore
     ├── .prettierrc
     ├── gatsby-browser.js
