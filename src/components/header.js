@@ -8,12 +8,7 @@ const ListLink = props => (
 );
 
 export default props => (
-  <div
-    style={{
-      display: "flex",
-      flexDirection: "row"
-    }}
-  >
+  <div style={{ display: "flex", flexDirection: "row" }}>
     <h1>{props.headerText}</h1>
     {props.navigate && (
       <ul style={{ listStyle: `none`, alignItems: "center" }}>
