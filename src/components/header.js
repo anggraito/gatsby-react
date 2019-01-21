@@ -14,6 +14,7 @@ export default props => (
       <ul style={{ listStyle: `none`, alignItems: "center" }}>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
+        <ListLink to="/profile/">Profile</ListLink>
       </ul>
     )}
   </div>
